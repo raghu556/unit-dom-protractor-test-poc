@@ -1,0 +1,17 @@
+<testExecutions version="1">
+  <file path="src/app/show-data/show-data.component.spec.ts">
+    <testCase name="ShowDataComponent Class should send a get request (getClientData) to the correct rest url" duration="286"/>
+    <testCase name="ShowDataComponent DOM should have check for columns headings present in the table" duration="73"/>
+    <testCase name="ShowDataComponent DOM should contain Overview Table" duration="251">
+      <failure message="Error">Error: Expected &lt;ag-grid-angular _ngcontent-a-c2 class="ag-theme-balham" style="width: 100%; height: 500px;" ng-reflect-column-defs="[object Object],[object Object" ng-reflect-default-col-def="[object Object]"&gt;...&lt;/ag-grid-angular&gt; to be falsy.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (src/app/show-data/show-data.component.spec.ts:64:62)
+    at ZoneDelegate../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+    </testCase>
+  </file>
+  <file path="src/app/app.component.spec.ts">
+    <testCase name="AppComponent should create the app" duration="34"/>
+  </file>
+</testExecutions>

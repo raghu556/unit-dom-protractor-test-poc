@@ -1,0 +1,35 @@
+<div
+  class="container col-2"
+  style="height:160px; top:40%; margin-top:-80px; position: absolute;  right: 0; left: 0;"
+>
+  <div class="align-self-center">
+        <h2>Login</h2>
+    <form>
+      <div class="form-group">
+            <div><label for="username">username:</label></div>
+        <div class="row">
+          <div ngbDropdown class="d-inline-block col-6">
+            <div
+              class="btn btn-outline-primary text-left"
+              id="userSelectionDropdown"
+              ngbDropdownToggle
+            >
+              {{ selectedUser }}
+            </div>
+            <div ngbDropdownMenu>
+              <div id="userSelectionDropdownItems" *ngFor="let user of users">
+                <span ngbDropdownItem (click)="handleUserSelect(user)">
+                  {{ user }}
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button (click)="handleLogin()" class="btn btn-primary">
+              Login
+      </button>
+    </form>
+  </div>
+</div>
