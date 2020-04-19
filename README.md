@@ -4,10 +4,10 @@ This Repo showcase the POC for Various Tests in Angular
 
 ## Getting Started
 
-#This POC showcase below test:
-#Unit Test - This test is written using Jasmine and Karma
-#DOM Test- This test is written using Jasmine and Karma
-#E2E Test- This test is written using Protractor, Cucumber and Chai. This also uses protractor-cucumber-framework NPM framework which eases the configuration.
+# This POC showcase below test:
+# Unit Test - This test is written using Jasmine and Karma
+# DOM Test- This test is written using Jasmine and Karma
+# E2E Test- This test is written using Protractor, Cucumber and Chai. This also uses protractor-cucumber-framework NPM framework which eases the configuration.
 
 Reference on Syntax for Jasmine and Karma configurations: https://blog.testproject.io/2016/08/14/javascript-unit-testing-with-tdd-jasmine-and-karma/
 
